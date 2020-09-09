@@ -43,10 +43,10 @@ def count(lines):
     print('viki傳了', viki_pic_count, '張圖片')
 
 
-def write_file(filename, lines):
-    with open(filename, 'w') as f:
-        for line in lines:
-            f.write(line + '\n')
+# def write_file(filename, lines):
+#     with open(filename, 'w') as f:
+#         for line in lines:
+#             f.write(line + '\n')
 
 
 def main():
